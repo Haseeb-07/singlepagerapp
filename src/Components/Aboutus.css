@@ -1,0 +1,42 @@
+.Aboutuscontent h3{
+    margin-top: 100px;
+    margin-bottom: 30px;
+text-align: center;
+}
+.Aboutustext{
+    max-width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+    font-family: 'Noto Sans SC Medium', sans-serif;
+    line-height: 0.65cm;
+}
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.read-more-button {
+    background-color: #0a0202; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+.read-more-button:hover {
+    background-color: #555; 
+}
+@media screen and (max-width: 768px){
+    .Aboutustext{
+        max-width: 300px;
+        text-align: justify;
+        margin: 0 auto;
+        font-family: 'Noto Sans SC Medium', sans-serif;
+        line-height: 0.65cm;
+    }
+}

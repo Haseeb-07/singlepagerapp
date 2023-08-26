@@ -1,0 +1,27 @@
+.card-container {
+    display: flex;
+  
+    align-items: center; 
+    flex-wrap: wrap;
+   
+
+}
+.book-button {
+    align-self: center;
+  }
+.responsive-card {
+    width: calc(25%); 
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-card {
+      width: calc(50% - 20px); 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .responsive-card {
+      width: 100%;
+    }
+  }
